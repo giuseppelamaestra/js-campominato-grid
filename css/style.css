@@ -37,6 +37,8 @@ header {
     width: 700px;
     margin: 0 auto;
     border: solid 1px black;
+    display: flex;
+    flex-wrap: wrap;
    
 }
 
@@ -46,4 +48,10 @@ main {
 
 footer {
     padding: 1.5rem;
+}
+
+.cell {
+    height: calc(100% / 10);
+    width: calc(100% / 10);
+    border: 1px solid black;
 }
